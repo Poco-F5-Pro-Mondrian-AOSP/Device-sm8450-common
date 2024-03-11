@@ -238,3 +238,9 @@ wifi.aware.interface=wifi-aware0
 suspend.short_suspend_threshold_millis=2000
 suspend.short_suspend_backoff_enabled=true
 suspend.max_sleep_time_millis=40000
+
+# Refresh Rate
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms?=80
+ro.surface_flinger.set_touch_timer_ms=200
+debug.sf.frame_rate_multiple_threshold=120
