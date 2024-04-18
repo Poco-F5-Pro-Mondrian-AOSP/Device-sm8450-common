@@ -111,9 +111,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Miui cam
-$(call inherit-product, vendor/xiaomi/camera/miuicamera.mk)
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
@@ -121,8 +118,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     libcamera2ndk_vendor \
     vendor.qti.hardware.camera.aon@1.0.vendor \
-    vendor.qti.hardware.camera.postproc@1.0.vendor \
-    libgui_shim_miuicamera
+    vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
