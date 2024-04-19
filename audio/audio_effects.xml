@@ -42,6 +42,9 @@
         <library name="audiosphere" path="libasphere.so"/>
         <library name="shoebox" path="libshoebox.so"/>
         <library name="misoundfx" path="libmisoundfx.so"/>
+        <!--VIPER-->
+         <library name="v4a_re" path="libv4a_re.so"/>
+        <!--VIPER END-->
         <!--DOLBY DAP-->
         <library name="dap" path="libhwdap.so"/>
         <!--DOLBY END-->
@@ -109,6 +112,9 @@
         <!--DOLBY VQE-->
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
         <!--DOLBY END-->
+        <!--VIPER-->
+          <effect name="v4a_standard_re" library="v4a_re" uuid="90380da3-8536-4744-a6a3-5731970e640f"/>
+        <!--VIPER END-->
     </effects>
     <postprocess>
         <stream type="music">
